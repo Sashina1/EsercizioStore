@@ -100,7 +100,7 @@ public class ItemService {
 		 double somma = 0;
 		 for (Item item : itemRepository.findAll()) {
 			somma += item.getCosto();
-			return somma;
+			
 		}
 		return somma;
 	}
